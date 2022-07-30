@@ -12,6 +12,8 @@ public class SpringdemoApplication {
 
 		System.out.println("FUCK");
 
+		System.out.println("Iaah is the goat");
+
 	}
 
 }
