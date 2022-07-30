@@ -4,6 +4,8 @@ public class testprogramm{
 
         testprogramm.run(testprogramm.class, args);
 
+        serial.println("Fucking hello");
+
     }
 
 
