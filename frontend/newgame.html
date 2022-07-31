@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Startseite</title>
+    <title>New Game</title>
 
     <link rel = "icon" href="resources/schreiberling-icon.png"
     type = "image/x-icon">
@@ -27,8 +27,23 @@ body {
     padding: 10px;
     margin-left: 2.5%;
     margin-right: auto;
-    min-width: 25%;
+    min-width: 20%;
     height: 4.5em;
+    font-size:xx-large;
+    border-width: 0.25em;
+    border-style: solid;
+    border-color: #5E4A3D;
+}
+
+.btn-secondary {
+    border-radius: 25em;
+    background-color: #9E7C67;
+    color: white;
+    padding: 10px;
+    margin-left: 16.5%;
+    margin-right: auto;
+    min-width: 15%;
+    height: 2.5em;
     font-size:xx-large;
     border-width: 0.25em;
     border-style: solid;
@@ -69,25 +84,21 @@ button:hover {
 }
 
 </style>
-
 <body>
-    
+
     <h1 style="height: auto; width: 65%; font-family: cursive; font-size: 3em;" class="text-primary" >Schreiberling</h1>
 
-    <div class="container" style="margin-left: 10%; margin-right: 10%; margin-top: 19%; text-align: center;">
+    <a href="play.html"><button type="button" name="returnbutton" id="2104" class="btn-secondary">Zurück</button></a>
 
-          <a href="play.html"><button type="button" name="playbutton" id="1000" class="btn-primary">Spielen</button></a>
-          <a href="statistics.html"><button type="button" name="statisticsbutton" id="1001" class="btn-primary">Statistiken</button></a>
-          <a href="management.html"><button type="button" name="managebutton" id="1002" class="btn-primary">Spielerverwaltung</button></a>
+    <div class="container" style="margin-left: 5%; margin-right: 5%; margin-top: 15%; text-align: center;">
+
+          <a href=""><button type="button" name="schnopsenbutton" id="2100" class="btn-primary">Schnopsen</button></a>
+          <a href=""><button type="button" name="watten1button" id="2101" class="btn-primary">Watten</button></a>
+          <a href=""><button type="button" name="houseoehenbutton" id="2102" class="btn-primary">House öhen</button></a>
+          <a href=""><button type="button" name="rommebutton" id="2103" class="btn-primary">Rommé</button></a>
 
     </div>
-
+    
 </body>
-
-<footer>
-
-    <p style="margin-top: 24%; font-size: 2em; color: white;">©SK/LL 2022</p>
-
-</footer>
-
 </html>
+
